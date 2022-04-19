@@ -1,0 +1,14 @@
+.body-container {
+	width: 1000px;
+	margin: auto;
+}
+
+footer {
+	background: wheat;
+}
+
+.footer-content {
+	width: 1000px;
+	margin: auto;
+	padding: 10px 0;
+}

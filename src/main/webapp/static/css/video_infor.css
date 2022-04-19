@@ -1,0 +1,56 @@
+
+.body-container .breadcrum {
+	font-size: 14px;
+}
+
+.body-container .breadcrum a {
+	color: chocolate;
+}
+
+.body-container h3 {
+	display: inline-block;
+	border-bottom: 2px solid royalblue;
+	margin: 10px 0;
+}
+
+.body-container .video-infor {
+	display: flex;
+	margin: auto;
+	background-color: whitesmoke;
+	padding: 15px;
+}
+
+.body-container .video-infor .video-infor-left {
+	height: 350px;
+	width: 300px;
+}
+
+.body-container .video-infor .video-infor-right {
+	width: 100%;
+}
+
+.body-container .video-infor .video-infor-right>div {
+	margin: 10px;
+	font-size: 12px;
+}
+
+.body-container .video-detail .video-description {
+	margin: 10px 0;
+	background: cornsilk;
+	padding: 10px;
+}
+
+.body-container .video-detail .video-description p {
+	font-size: 13px;
+	margin: 10px;
+}
+
+.body-container .video-trailer {
+	width: 100%;
+}
+
+.body-container .video-trailer iframe {
+	margin: 10px auto;
+	display: block;
+	width: 70%;
+}

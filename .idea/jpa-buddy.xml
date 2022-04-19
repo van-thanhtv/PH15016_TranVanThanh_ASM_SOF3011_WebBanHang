@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="54be2b78-68e4-4ee6-b8a7-03eb94979677" />
+    <option name="reIgnoreSlowDbConnections">
+      <ignoreDs id="54be2b78-68e4-4ee6-b8a7-03eb94979677" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="PH15016_TranVanThanh_ASM_SOF3011_WebBanHang">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>entitys.OrdersEntity</class>
+        <class>entitys.CategoryEntity</class>
+        <class>entitys.ColorEntity</class>
+        <class>entitys.CustomerEntity</class>
+        <class>entitys.OrdersDetailEntity</class>
+        <class>entitys.ProductEntity</class>
+        <class>entitys.ProductDetailsEntity</class>
+        <class>entitys.ProvidedEntity</class>
+        <class>entitys.SizeEntity</class>
+        <class>entitys.UsersEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/Websales"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="1"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.jdbc.batch_size" value="50"/>
+            <property name="hibernate.order_updates" value="true"/>
+<!--            <property name="hibernate.show_sql" value="true"/>-->
+<!--            <property name="l" value="org.hibernate.dialect.Oracle8iDialect"/>-->
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

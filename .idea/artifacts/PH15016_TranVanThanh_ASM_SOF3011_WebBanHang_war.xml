@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PH15016_TranVanThanh_ASM_SOF3011_WebBanHang:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PH15016_TranVanThanh_ASM_SOF3011_WebBanHang</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PH15016_TranVanThanh_ASM_SOF3011_WebBanHang-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PH15016_TranVanThanh_ASM_SOF3011_WebBanHang:war exploded" />
+    </root>
+  </artifact>
+</component>
